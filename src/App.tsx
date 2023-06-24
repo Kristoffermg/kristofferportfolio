@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Navbar"
-import Home from "./pages/Home"
+import Home from "./pages/Home/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import Skills from "./pages/Skills"
