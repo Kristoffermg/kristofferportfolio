@@ -3,7 +3,7 @@ import './styles.css';
 import ReferencesButtons from '../ReferencesButtons';
 import Contact from '../Contact';
 import About from '../About';
-import Projects from '../Projects';
+import Projects from '../../Projects/Projects';
 import BackgroundImage from './forside_baggrund.png';
 
 export default function Home() {
@@ -14,7 +14,6 @@ export default function Home() {
                     <ReferencesButtons />
                 </div>
             </section>
-            <Contact />
             <Projects />
         </Fragment>
        )
