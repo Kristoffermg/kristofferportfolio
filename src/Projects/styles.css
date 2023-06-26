@@ -1,0 +1,47 @@
+.projects {
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectListings {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictureAndTechnologies {
+    flex-direction: column;
+}
+
+.projectInformation {
+    padding-left: 2vw;
+}
+
+img {
+    height: auto;
+    width: 30vw;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 0.8rem;
+    justify-items: center;
+}
+
+i{
+    font-size: 1rem;
+    margin-right: .5rem;
+    line-height: 2rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
