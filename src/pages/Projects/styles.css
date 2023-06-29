@@ -18,15 +18,9 @@
 }
 
 img {
-    height: auto;
-    width: 30vw;
+    height: 17vw;
+    width: auto;
     box-shadow: 5px 5px 5px #ccc;
-}
-
-ul {
-    display:block;
-    /* list-style: none; */
-    justify-content:center;
 }
 
 i{
@@ -57,22 +51,25 @@ ol li {
     padding: .4em .4em .4em 2em;
     margin: .5em auto;
     width: 50%;
-    background: #DAD2CA;
-    color: #444;
+    background: linear-gradient(to bottom, rgba(64, 76, 143, 0.52), rgba(26, 5, 20, 0.73)), url('../../images/forside_baggrund.png');
+    color: #fff;
     text-decoration: none;
     border-radius: .3em;
     transition: .3s ease-out;
 }
 
-  ol :hover:before { transform: rotate(360deg); }
-  ol :before {
+ol :hover:before {
+     transform: rotate(360deg);
+}
+
+ol :before {
     content: counter(li);
     counter-increment: li;
     position: absolute;
     left: -1em;
     top: 50%;
     margin-top: -1.3em;
-    background: #f9dd94;
+    background: #f06464;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -81,4 +78,5 @@ ol li {
     font-weight: bold;
     border-radius: 2em;
     transition: all .3s ease-out;
-  }
+}
+
