@@ -19,7 +19,7 @@ export default function ReferencesButtons() {
                 </a>
                 <a href={'google.com'} className={'reference'}>
                     <i className='fa fa-newspaper-o'></i>
-                    <span>Resume</span>
+                    <span>CV</span>
                 </a>
             </div>
         </Fragment>

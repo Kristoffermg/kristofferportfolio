@@ -14,6 +14,20 @@
     position: relative;
 }
 
+.title {
+    color: white;
+    text-shadow: 2px 2px black;
+    line-height: 50%;
+    left: 50%;
+    padding: 0 0 1% 0;
+}
+
+.title #location {
+    position:relative;
+    right: 35%;
+    font-size: large;
+}
+
 .references {
     display: flex;
     flex-direction: row;
