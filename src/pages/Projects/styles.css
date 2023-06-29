@@ -9,6 +9,7 @@
     color: white;
     /* text-shadow: 2px 2px black; */
     margin: auto;
+    margin-bottom: 1%;
     text-align: center;
     font-size: 1.8em; 
     border-radius: 10px;
@@ -93,3 +94,6 @@ ol :before {
     transition: all .3s ease-out;
 }
 
+#portfolio {
+    margin-bottom: 6%;
+}

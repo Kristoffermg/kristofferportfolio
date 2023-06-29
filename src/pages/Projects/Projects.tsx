@@ -1,6 +1,7 @@
 import './styles.css'
 import husdatabillede from '../../images/husdata_billede.png'
 import transformerbillede from '../../images/transformer-hjemmeside.png'
+import portfoliobillede from '../../images/portfolio.png'
 import { Fade } from "react-awesome-reveal";
 
 export default function Projects() {
@@ -10,8 +11,8 @@ export default function Projects() {
                 <h1 id='myprojects'>My projects</h1>
                 <div id='kristofferhusdata' className='projectListings'>
                     <div className='projectInformation'>
-                        <h2>Kristofferhusdata</h2>
                         <img src={husdatabillede}></img>
+                        <h2>Kristofferhusdata</h2>
                         <h3>Technologies used</h3>
                         
                         <ol>
@@ -43,8 +44,8 @@ export default function Projects() {
             <Fade>
                 <div id='bachelorprojekt' className='projectListings'>
                     <div className='projectInformation'>
-                            <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers (Grade: 10)</h2>
                             <img src={transformerbillede}></img>
+                            <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers (Grade: 10)</h2>
 
                             <h3>Technologies used</h3>
                             <ol>
@@ -77,6 +78,24 @@ export default function Projects() {
                                     front-end and back-end portions of a project. My skills with managing a project also grew, predominantly on how to solve issues with group decisions so that the progression never halts.</p>
                                 <a href='https://docdro.id/0yJjytH' target='_blank'><h4>Link to the paper</h4></a>
                             </div>
+                        </div>
+                </div>
+            </Fade>
+            <hr />
+            <Fade>
+                <div id='portfolio' className='projectListings'>
+                    <div className='projectInformation'>
+                            <img src={portfoliobillede}></img>
+                            <h2>Personal portfolio</h2>
+
+                            <h3>Technologies used</h3>
+                            <ol>
+                                <li className="">React</li>
+                                <li className="">TypeScript</li>
+                            </ol>
+
+                            <h3>What I learned</h3>
+                            <p>Making this portfolio taught me more about designing front-end applications. </p>
                         </div>
                 </div>
             </Fade>
