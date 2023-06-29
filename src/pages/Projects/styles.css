@@ -17,7 +17,6 @@
     padding:2px 20px;
 }
 
-
 .pictureAndTechnologies {
     flex-direction: column;
 }
@@ -42,6 +41,11 @@ i{
     margin-right: .5rem;
     line-height: 2rem;
 }
+
+#github {
+    font-size: 2rem;
+}
+
 
 hr {
     display: block;
@@ -95,5 +99,5 @@ ol :before {
 }
 
 #portfolio {
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 }

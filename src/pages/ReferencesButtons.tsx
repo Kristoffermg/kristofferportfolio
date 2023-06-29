@@ -17,7 +17,7 @@ export default function ReferencesButtons() {
                     <i className='fa fa-envelope'></i>
                     <span>Email</span>
                 </a>
-                <a href={'google.com'} className={'reference'}>
+                <a href={'https://www.docdroid.net/qHofikq/kristoffer-cv-pdf'} className={'reference'} target='_blank'>
                     <i className='fa fa-newspaper-o'></i>
                     <span>CV</span>
                 </a>

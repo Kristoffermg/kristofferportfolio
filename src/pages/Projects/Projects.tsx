@@ -35,7 +35,8 @@ export default function Projects() {
                             <h3>What I learned</h3>
                             <p>This project taught me many things. I learned how to work with Blazor, how to use a DHT22 sensor with my Raspberry Pi and how to display nice and interactive graphs in Blazor.
                             I also learned how to use Azure to host and manage websites and databases. My learning experience from this project ultimately taught me a lot about useful technologies that I could apply in my Bachelors project.</p>
-                            <a href={'https://kristofferhusdata.azurewebsites.net'} target='_blank'><h4>Link to website (username: guest, password: 123)</h4></a>
+                            <a href={'https://kristofferhusdata.azurewebsites.net'} target='_blank'><h4>Live preview (username: guest, password: 123)</h4></a>
+                            <a href='https://github.com/Kristoffermg/kristofferhusdata' target='_blank'><i className='fa fa-github' id='github'></i></a>
                         </div>
                     </div>
                 </div>
@@ -77,6 +78,7 @@ export default function Projects() {
                                 <p>In this project, I got a lot better at using machine learning models in practice. I also furtherer developed my skills as a fullstack developer in terms of ways to communicate between the 
                                     front-end and back-end portions of a project. My skills with managing a project also grew, predominantly on how to solve issues with group decisions so that the progression never halts.</p>
                                 <a href='https://docdro.id/0yJjytH' target='_blank'><h4>Link to the paper</h4></a>
+                                <a href='https://github.com/SW6-Transformer-Forecasting/Transformer-Forecasting' target='_blank'><i className='fa fa-github' id='github'></i></a>
                             </div>
                         </div>
                 </div>
@@ -95,7 +97,8 @@ export default function Projects() {
                             </ol>
 
                             <h3>What I learned</h3>
-                            <p>Making this portfolio taught me more about designing front-end applications. </p>
+                            <p>Making this portfolio taught me more about designing front-end applications. It was very exciting to learn about new ways to style a website.</p>
+                            <a href='https://github.com/Kristoffermg/kristofferportfolio' target='_blank'><i className='fa fa-github' id='github'></i></a>
                         </div>
                 </div>
             </Fade>
