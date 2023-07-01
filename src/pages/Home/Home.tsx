@@ -12,7 +12,7 @@ export default function Home() {
             <section className={'header'}>
                 <div className={'container'}>
                     <div className='title'>
-                        <h1>Fullstack Software Engineer</h1>
+                        <h1>Fullstack Software Developer</h1>
                         <h2 id='location'><i className='fa fa-map-marker'/> Aalborg</h2>
                     </div>
                     <ReferencesButtons />
