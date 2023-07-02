@@ -1,6 +1,6 @@
 import './styles.css'
 import husdatabillede from '../../images/husdata_billede.png'
-import transformerbillede from '../../images/transformer-hjemmeside.png'
+import transformerbillede from '../../images/transformer_screenshot.png'
 import portfoliobillede from '../../images/portfolio.png'
 import { Fade } from "react-awesome-reveal";
 
@@ -46,7 +46,7 @@ export default function Projects() {
                 <div id='bachelorprojekt' className='projectListings'>
                     <div className='projectInformation'>
                             <img src={transformerbillede}></img>
-                            <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers (Grade: 10)</h2>
+                            <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers</h2>
 
                             <h3>Technologies used</h3>
                             <ol>
