@@ -3,6 +3,7 @@ import './styles.css';
 import ReferencesButtons from '../ReferencesButtons';
 import Contact from '../Contact';
 import About from '../About/About';
+import Experiences from '../Experiences/Experiences'
 import Projects from '../Projects/Projects';
 import BackgroundImage from './forside_baggrund.png';
 
@@ -18,8 +19,11 @@ export default function Home() {
                     <ReferencesButtons />
                 </div>
             </section>
-            <About />
-            <Projects />
+            <section className={'information'}>
+                <About />
+                <Experiences />
+                <Projects />
+            </section>
         </Fragment>
        )
 }

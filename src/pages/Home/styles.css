@@ -2,7 +2,22 @@
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: Arial !important;
 }
+
+.information {
+    color: #434A54;
+    font-family: Tahoma, sans-serif;
+}
+
+.sectionHeader {
+    font-size:2em;
+}
+
+.content {
+    font-size: 1.2em;
+}
+
 
 .header {
     height: 30vw;
@@ -26,6 +41,13 @@
     position:relative;
     right: 35%;
     font-size: large;
+}
+
+.information {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .references {

@@ -1,0 +1,25 @@
+.experiencesContainer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 3.5rem 3rem 0rem 5rem;
+
+    gap: 3rem;
+}
+
+.experience {
+    flex-direction: column !important;
+    display: flex;
+    font-weight: bold;
+}
+
+.experienceImage {
+    height: 5vw;
+    width: auto;
+    margin-bottom: 0.5rem;
+}
+
+.experienceName {
+    display: block;
+    margin-top: 0.5rem;
+}
+

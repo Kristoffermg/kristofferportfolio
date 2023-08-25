@@ -8,10 +8,10 @@ import { Fade } from "react-awesome-reveal";
 export default function Projects() {
     return (
         <section id='projects' className='projects'>
-                <h1 id='myprojects'>My projects</h1>
+                <h1 className='sectionHeader'>My projects</h1>
                 <div id='kristofferhusdata' className='projectListings'>
                     <div className='projectInformation'>
-                        <img src={husdatabillede}></img>
+                        <img className='projectImage' src={husdatabillede}></img>
                         <h2>Kristofferhusdata</h2>
                         <h3>Technologies used</h3>
                         
@@ -45,7 +45,7 @@ export default function Projects() {
             <hr />
             <div id='bachelorprojekt' className='projectListings'>
                 <div className='projectInformation'>
-                        <img src={transformerbillede}></img>
+                        <img className='projectImage' src={transformerbillede}></img>
                         <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers</h2>
 
                         <h3>Technologies used</h3>
@@ -88,7 +88,7 @@ export default function Projects() {
             <hr />
             <div id='portfolio' className='projectListings'>
                 <div className='projectInformation'>
-                        <img src={portfoliobillede}></img>
+                        <img className='projectImage' src={portfoliobillede}></img>
                         <h2>Personal portfolio</h2>
                         
                         <h3>Technologies used</h3>
