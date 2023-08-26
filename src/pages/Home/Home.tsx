@@ -1,28 +1,33 @@
 import React, { Fragment } from 'react';
 import './styles.css';
 import ReferencesButtons from '../ReferencesButtons';
-import Contact from '../Contact';
 import About from '../About/About';
 import Experiences from '../Experiences/Experiences'
 import Projects from '../Projects/Projects';
-import BackgroundImage from './forside_baggrund.png';
+
+const Flip = require('react-reveal/Flip');
+const Fade = require('react-reveal/Fade');
 
 export default function Home() {
     return (
         <Fragment>
             <section className={'header'}>
-                <div className={'container'}>
-                    <div className='title'>
-                        <h1>Fullstack Software Developer</h1>
-                        <h2 id='location'><i className='fa fa-map-marker'/> Aalborg</h2>
+                <Flip bottom>
+                    <div className={'container'}>
+                        <div className='title'>
+                            <h1>Fullstack Software Developer</h1>
+                            <h2 id='location'><i className='fa fa-map-marker'/> Aalborg</h2>
+                        </div>
+                        <ReferencesButtons />
                     </div>
-                    <ReferencesButtons />
-                </div>
+                </Flip>
             </section>
             <section className={'information'}>
-                <About />
-                <Experiences />
-                <Projects />
+                <Fade>
+                    <About />
+                    <Experiences />
+                    <Projects />
+                </Fade>
             </section>
         </Fragment>
        )
