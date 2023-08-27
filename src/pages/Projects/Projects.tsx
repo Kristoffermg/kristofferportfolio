@@ -2,7 +2,25 @@ import './styles.css'
 import husdatabillede from '../../images/husdata_billede.png'
 import transformerbillede from '../../images/transformer_screenshot.png'
 import portfoliobillede from '../../images/portfolio.png'
+import noteappbillede from '../../images/notetakingapp.png'
 import { Fade } from "react-awesome-reveal";
+
+import c from '../../images/skills/C.png'
+import blazor from '../../images/skills/blazor.png'
+import csharp from '../../images/skills/csharp.png'
+import css from '../../images/skills/css.png'
+import html from '../../images/skills/html.png'
+import java from '../../images/skills/java.png'
+import javascript from '../../images/skills/javascript.png'
+import mysql from '../../images/skills/mysql.png'
+import python from '../../images/skills/python.png'
+import react from '../../images/skills/react.png'
+import typescript from '../../images/skills/typescript.png'
+import pytorch from '../../images/skills/pytorch.png'
+import azure from '../../images/skills/azure.png'
+import git from '../../images/skills/git.png'
+import raspberrypi from '../../images/skills/raspberrypi.png'
+import aws from '../../images/skills/aws.png';
 
 
 export default function Projects() {
@@ -12,20 +30,36 @@ export default function Projects() {
                 <div id='kristofferhusdata' className='projectListings'>
                     <div className='projectInformation'>
                         <img className='projectImage' src={husdatabillede}></img>
-                        <h2>Kristofferhusdata</h2>
+                        <h2>Kristofferhusdata</h2>    
+
                         <h3>Technologies used</h3>
-                        
-                        <Fade>
-                            <ol>
-                                <li className="">C# .NET</li>
-                                <li className="">Python</li>
-                                <li className="">SQL</li>
-                                <li className="">Blazor</li>
-                                <li className="">Azure</li>
-                                <li className="">Raspberry Pi</li>
-                                <li className="">Adafruit DHT22 sensor</li>
-                            </ol>
-                        </Fade>
+
+                        <div className='experiencesContainer'>
+                            <div className='experience'>
+                                <img className='experienceImage' src={csharp}></img>
+                                C#
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={python}></img>
+                                Python
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={mysql}></img>
+                                MySQL
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={blazor}></img>
+                                Blazor
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={azure}></img>
+                                Azure
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={raspberrypi}></img>
+                                Raspberry Pi
+                            </div>
+                        </div>
                         
                         <div className='projectText'>
                             <h3>What does this project solve?</h3>
@@ -50,23 +84,37 @@ export default function Projects() {
 
                         <h3>Technologies used</h3>
 
-                        <Fade>
-                            <ol>
-                                <li className="">C# .NET</li>
-                                <li className="">Python</li>
-                                <li className="">SQL</li>
-                                <li className="">JSON</li>
-                                <li className="">Blazor (Mudblazor for UI)</li>
-                                <li className="">Azure</li>
-                                <li className="">Sklearn</li>
-                                <li className="">Pytorch</li>
-                            </ol>
-                        </Fade>
+                        <div className='experiencesContainer'>
+                            <div className='experience'>
+                                <img className='experienceImage' src={csharp}></img>
+                                Python
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={python}></img>
+                                C#
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={mysql}></img>
+                                MySQL
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={blazor}></img>
+                                Blazor
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={azure}></img>
+                                Azure
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={pytorch}></img>
+                                PyTorch
+                            </div>
+                        </div>
 
                         <div className='projectText'>
                             <h3>What does this project solve?</h3>
                             <p>Over time, higher oil temperatures in electrical transformers break down the transformer at a significant rate. In this project, we made a platform that makes the predictions
-                                on the oil temperature easily accessible. We trained a <b>linear model</b> with Sklearn to perform <b>time-series forecasting</b>. We also trained a <b>multilayer perceptron</b> with PyTorch to calculate the oil temperature given
+                                on the oil temperature easily accessible. We trained a <b>linear model</b> with Sklearn to perform <b>time-series forecasting</b>. We also trained a <b>multilayer perceptron</b> with PyTorch to estimate the oil temperature given
                                 a set of load values. We programmed these models in <b>Python</b>. We connected the models to a <b>front-end interface in C# with Blazor</b>, which was specifically designed with MudBlazor. 
                                 We also used ChartJs.Blazor to make interactive graphs that displays the predictions. To communicate between the front-end and back-end we used a MySQL database which we hosted on Azure, and we also made good use of
                                 JSON files. 
@@ -78,8 +126,10 @@ export default function Projects() {
                                 I helped on the front-end by <b>adding interactive graphs</b>. Throughout the project, <b>I helped the other group members with various things</b>, both front-end and back-end, if they were stuck.
                                     In general, I <b>worked as a fullstack developer</b>, where I <b>primarily worked on the back-end.</b></p>
                             <h3>What I learned</h3>
-                            <p>In this project, I got a lot better at using machine learning models in practice. I also furtherer developed my skills as a fullstack developer in terms of ways to communicate between the 
-                                front-end and back-end portions of a project. My skills with managing a project also grew, predominantly on how to solve issues with group decisions so that the work progression never stops.</p>
+                            <p>
+                            In the course of this project, I significantly enhanced my practical proficiency with machine learning models. 
+                            Additionally, I made substantial progress in advancing my capabilities as a fullstack developer, particularly in establishing effective communication channels between the
+                             project's frontend and backend components. My project management skills also grew, with a notable focus on effectively resolving group-related challenges to ensure uninterrupted workflow progression.</p>
                             <a href='https://docdro.id/0yJjytH' target='_blank'><h4>Link to the paper</h4></a>
                             <a href='https://github.com/SW6-Transformer-Forecasting/Transformer-Forecasting' target='_blank'><i className='fa fa-github' id='github'></i></a>
                         </div>
@@ -88,18 +138,58 @@ export default function Projects() {
             <hr />
             <div id='portfolio' className='projectListings'>
                 <div className='projectInformation'>
-                        <img className='projectImage' src={portfoliobillede}></img>
+                    <img className='projectImage' src={noteappbillede} />
+                    <h2>Note taking application</h2>
+
+                    <h3>Technologies used</h3>
+
+                    <div className='experiencesContainer'>
+                        <div className='experience'>
+                            <img className='experienceImage' src={csharp}></img>
+                            C#
+                        </div>
+                        <div className='experience'>
+                            <img className='experienceImage' src={mysql}></img>
+                            MySQL
+                        </div>
+                    </div>
+
+                    <div className='projectText'>
+                        <h3>What does this project solve?</h3>
+                        <p>I was in need of an application that would save some notes in the cloud rather than on my computer. I wanted the application to require very little processing power,
+                            as I feel like other solutions like OneNote overdid it in some aspects, and thus made their application feel clunky and slow on my laptop. Therefore I designed a very 
+                            light-weight Forms application that I can easily use to see my notes on my laptop and home computer without having to export the notes myself. 
+                        </p>
+                        <h3>My role</h3>
+                        <p>This is another of my independent projects.</p>
+                        <h3>What I learned</h3>
+                        <p>I refreshed previous knowledge about Windows Forms .NET applications and also learned more about efficient ways to use it. </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+            <div id='portfolio' className='projectListings'>
+                <div className='projectInformation'>
+                        <img className='projectImage' src={portfoliobillede} />
                         <h2>Personal portfolio</h2>
                         
                         <h3>Technologies used</h3>
 
-                        <Fade>
-                            <ol>
-                                <li className="">React</li>
-                                <li className="">TypeScript</li>
-                                <li className="">Amazon Web Services (AWS)</li>
-                            </ol>
-                        </Fade>
+                        <div className='experiencesContainer'>
+                            <div className='experience'>
+                                <img className='experienceImage' src={react}></img>
+                                React
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={typescript}></img>
+                                TypeScript
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={aws}></img>
+                                AWS
+                            </div>
+                        </div>
 
                         <h3>What I learned</h3>
                         <p>Making this portfolio taught me more about designing front-end applications. It was very exciting to work with some new libraries.</p>

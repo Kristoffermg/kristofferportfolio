@@ -26,8 +26,8 @@ export default function Home() {
                 <Fade>
                     <About />
                     <Experiences />
-                    <Projects />
                 </Fade>
+                <Projects />
             </section>
         </Fragment>
        )

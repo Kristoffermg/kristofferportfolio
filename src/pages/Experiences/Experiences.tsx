@@ -77,5 +77,6 @@ export default function Experiences() {
                 Git
             </div>
         </div>
+        <hr></hr>
     </section>
 }

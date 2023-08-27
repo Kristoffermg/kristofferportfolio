@@ -1,21 +1,29 @@
 .experiencesContainer {
     display: flex !important;
     flex-wrap: wrap !important;
-    margin: 3.5rem 3rem 0rem 5rem;
-
-    gap: 3rem;
+    
+    /* margin: 3.5rem 3rem 0rem 5rem; */
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .experience {
     flex-direction: column !important;
     display: flex;
     font-weight: bold;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .experienceImage {
     height: 5vw;
     width: auto;
     margin-bottom: 0.5rem;
+    justify-content: center;
 }
 
 .experienceName {
