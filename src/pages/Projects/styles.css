@@ -38,8 +38,9 @@ hr {
     height: 1px;
     border: 0;
     border-top: 2px solid #ccc;
-    margin-top: 3em;
-    margin-bottom: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
 ol {
