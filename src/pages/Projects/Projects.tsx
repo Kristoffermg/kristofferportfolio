@@ -86,11 +86,11 @@ export default function Projects() {
 
                         <div className='experiencesContainer'>
                             <div className='experience'>
-                                <img className='experienceImage' src={csharp}></img>
+                                <img className='experienceImage' src={python}></img>
                                 Python
                             </div>
                             <div className='experience'>
-                                <img className='experienceImage' src={python}></img>
+                                <img className='experienceImage' src={csharp}></img>
                                 C#
                             </div>
                             <div className='experience'>
@@ -156,14 +156,17 @@ export default function Projects() {
 
                     <div className='projectText'>
                         <h3>What does this project solve?</h3>
-                        <p>I was in need of an application that would save some notes in the cloud rather than on my computer. I wanted the application to require very little processing power,
-                            as I feel like other solutions like OneNote overdid it in some aspects, and thus made their application feel clunky and slow on my laptop. Therefore I designed a very 
-                            light-weight Forms application that I can easily use to see my notes on my laptop and home computer without having to export the notes myself. 
+                        <p>I required a cloud-based application to store and manage notes, as opposed to storing them locally on my computer. 
+                            For a note application, I prefer just having the necessary features. This consideration arose from my personal experience that certain alternatives, 
+                            such as OneNote, overdid some aspects of their application which makes them run sluggishly on my laptop. To address these concerns, 
+                            I developed a lightweight Windows Forms application designed according to my requirements. This solution lets me easily access my notes across both my laptop 
+                            and home computer, without having to import and export the notes manually.
                         </p>
                         <h3>My role</h3>
-                        <p>This is another of my independent projects.</p>
+                        <p>This is another of my independent projects that I work on to continually embrace learning.</p>
                         <h3>What I learned</h3>
-                        <p>I refreshed previous knowledge about Windows Forms .NET applications and also learned more about efficient ways to use it. </p>
+                        <p>I learned how to make Windows Forms .NET applications work more efficiently and look clean. </p>
+                        <a href='https://github.com/Kristoffermg/Note-taking-application' target='_blank'><i className='fa fa-github' id='github'></i></a>
                     </div>
                 </div>
             </div>
