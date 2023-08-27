@@ -17,7 +17,7 @@ export default function ReferencesButtons() {
                     <i className='fa fa-envelope'></i>
                     <span>Email</span>
                 </a>
-                <a href={'https://docdro.id/4goJMG1'} className={'reference'} target='_blank'>
+                <a href={'https://emerald-ursulina-3.tiiny.site/'} className={'reference'} target='_blank'>
                     <i className='fa fa-newspaper-o'></i>
                     <span>CV</span>
                 </a>

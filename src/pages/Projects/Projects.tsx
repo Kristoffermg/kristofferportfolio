@@ -81,9 +81,9 @@ export default function Projects() {
                             <p></p>
                             <h3>My role</h3>
                             <p>In this project, I <b>came up with the requirements</b> for the project and which technologies we should use. I <b>gave out tasks</b> to the other group members so we all had ways to contribute to the project.
-                                I <b>made the linear model</b> which makes the time-series forecasts. I <b>set up and designed the database</b>, and <b>wrote the SQL queries</b> which are used to communicate between the front-end and back-end. 
+                                I <b>made the linear model</b> which performs the time-series forecasts. I <b>set up and designed the database</b>, and <b>wrote the SQL queries</b> which are used to communicate between the front-end and back-end. 
                                 I helped on the front-end by <b>adding interactive graphs</b>. Throughout the project, <b>I helped the other group members with various things</b>, both front-end and back-end, if they were stuck.
-                                    In general, I <b>worked as a fullstack developer</b>, where I <b>primarily worked on the back-end.</b></p>
+                                    In general, I <b>worked as a lead fullstack developer</b>, where I <b>primarily worked on the back-end.</b></p>
                             <h3>What I learned</h3>
                             <p>
                             In the course of this project, I significantly enhanced my practical proficiency with machine learning models. 
@@ -155,20 +155,20 @@ export default function Projects() {
                                 Blazor
                             </div>
                             <div className='experience'>
-                                <img className='experienceImage' src={azure}></img>
-                                Azure
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={raspberrypi}></img>
-                                Raspberry Pi
-                            </div>
-                            <div className='experience'>
                                 <img className='experienceImage' src={html}></img>
                                 HTML
                             </div>
                             <div className='experience'>
                                 <img className='experienceImage' src={css}></img>
                                 CSS
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={azure}></img>
+                                Azure
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={raspberrypi}></img>
+                                Raspberry Pi
                             </div>
                         </div>
                         
