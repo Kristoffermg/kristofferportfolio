@@ -27,57 +27,7 @@ export default function Projects() {
     return (
         <section id='projects' className='projects'>
                 <h1 className='sectionHeader'>My projects</h1>
-                <div id='kristofferhusdata' className='projectListings'>
-                    <div className='projectInformation'>
-                        <img className='projectImage' src={husdatabillede}></img>
-                        <h2>Kristofferhusdata</h2>    
-
-                        <h3>Technologies used</h3>
-
-                        <div className='experiencesContainer'>
-                            <div className='experience'>
-                                <img className='experienceImage' src={csharp}></img>
-                                C#
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={python}></img>
-                                Python
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={mysql}></img>
-                                MySQL
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={blazor}></img>
-                                Blazor
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={azure}></img>
-                                Azure
-                            </div>
-                            <div className='experience'>
-                                <img className='experienceImage' src={raspberrypi}></img>
-                                Raspberry Pi
-                            </div>
-                        </div>
-                        
-                        <div className='projectText'>
-                            <h3>What does this project solve?</h3>
-                            <p>I wanted a way to monitor the temperature and air humidity in my room. With the gathered data, I can monitor how big of an effect the surrounding conditions have on the readings, 
-                            and ultimately find a way to avoid unpleasant temperatures and air humidity in my room.</p>
-                            <p></p>
-                            <h3>My role</h3>
-                            <p>This is a project that I have been working on in my free time by myself. This taught me how to <b>independently work on a project as a fullstack developer</b>.</p>
-                            <h3>What I learned</h3>
-                            <p>I learned how to work with Blazor, how to use a DHT22 sensor with my Raspberry Pi and how to display nice and interactive graphs in Blazor.
-                            I also learned how to use Azure to host and manage websites and databases. My learning experience from this project ultimately taught me a lot about <b>useful technologies that I could apply in my Bachelors project.</b></p>
-                            <a href={'https://kristofferhusdata.azurewebsites.net'} target='_blank'><h3>Live demo (username: guest, password: 123)</h3></a>
-                            <a href='https://github.com/Kristoffermg/kristofferhusdata' target='_blank'><i className='fa fa-github' id='github'></i></a>
-                        </div>
-                    </div>
-                </div>
-            <hr />
-            <div id='bachelorprojekt' className='projectListings'>
+                <div id='bachelorprojekt' className='projectListings'>
                 <div className='projectInformation'>
                         <img className='projectImage' src={transformerbillede}></img>
                         <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers</h2>
@@ -91,7 +41,7 @@ export default function Projects() {
                             </div>
                             <div className='experience'>
                                 <img className='experienceImage' src={csharp}></img>
-                                C#
+                                C# .NET
                             </div>
                             <div className='experience'>
                                 <img className='experienceImage' src={mysql}></img>
@@ -109,6 +59,15 @@ export default function Projects() {
                                 <img className='experienceImage' src={pytorch}></img>
                                 PyTorch
                             </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={html}></img>
+                                HTML
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={css}></img>
+                                CSS
+                            </div>
+
                         </div>
 
                         <div className='projectText'>
@@ -134,43 +93,100 @@ export default function Projects() {
                             <a href='https://github.com/SW6-Transformer-Forecasting/Transformer-Forecasting' target='_blank'><i className='fa fa-github' id='github'></i></a>
                         </div>
                     </div>
-            </div>
-            <hr />
-            <div id='portfolio' className='projectListings'>
-                <div className='projectInformation'>
-                    <img className='projectImage' src={noteappbillede} />
-                    <h2>Note taking application</h2>
+                </div>
+                <hr />
+                <div id='notetakingapp' className='projectListings'>
+                    <div className='projectInformation'>
+                        <img className='projectImage' src={noteappbillede} />
+                        <h2>Note taking application</h2>
 
-                    <h3>Technologies used</h3>
+                        <h3>Technologies used</h3>
 
-                    <div className='experiencesContainer'>
-                        <div className='experience'>
-                            <img className='experienceImage' src={csharp}></img>
-                            C#
+                        <div className='experiencesContainer'>
+                            <div className='experience'>
+                                <img className='experienceImage' src={csharp}></img>
+                                C# .NET
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={mysql}></img>
+                                MySQL
+                            </div>
                         </div>
-                        <div className='experience'>
-                            <img className='experienceImage' src={mysql}></img>
-                            MySQL
-                        </div>
-                    </div>
 
-                    <div className='projectText'>
-                        <h3>What does this project solve?</h3>
-                        <p>I required a cloud-based application to store and manage notes, as opposed to storing them locally on my computer. 
-                            For a note application, I prefer just having the necessary features. This consideration arose from my personal experience that certain alternatives, 
-                            such as OneNote, overdid some aspects of their application which makes them run sluggishly on my laptop. To address these concerns, 
-                            I developed a lightweight Windows Forms application designed according to my requirements. This solution lets me easily access my notes across both my laptop 
-                            and home computer, without having to import and export the notes manually.
-                        </p>
-                        <h3>My role</h3>
-                        <p>This is another of my independent projects that I work on to continually embrace learning.</p>
-                        <h3>What I learned</h3>
-                        <p>I learned how to make Windows Forms .NET applications work more efficiently and look clean. </p>
-                        <a href='https://github.com/Kristoffermg/Note-taking-application' target='_blank'><i className='fa fa-github' id='github'></i></a>
+                        <div className='projectText'>
+                            <h3>What does this project solve?</h3>
+                            <p>I required a cloud-based application to store and manage notes, as opposed to storing them locally on my computer. 
+                                For a note application, I prefer just having the necessary features. This consideration arose from my personal experience that certain alternatives, 
+                                such as OneNote, overdid some aspects of their application which makes them run sluggishly on my laptop. To address these concerns, 
+                                I developed a lightweight Windows Forms application designed according to my requirements. This solution lets me easily access my notes across both my laptop 
+                                and home computer, without having to import and export the notes manually.
+                            </p>
+                            <h3>My role</h3>
+                            <p>This is another of my independent projects that I work on to continually embrace learning.</p>
+                            <h3>What I learned</h3>
+                            <p>I learned how to make Windows Forms .NET applications work more efficiently and look clean. </p>
+                            <a href='https://github.com/Kristoffermg/Note-taking-application' target='_blank'><i className='fa fa-github' id='github'></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <hr />
+                <div id='kristofferhusdata' className='projectListings'>
+                    <div className='projectInformation'>
+                        <img className='projectImage' src={husdatabillede}></img>
+                        <h2>Kristofferhusdata</h2>    
 
+                        <h3>Technologies used</h3>
+
+                        <div className='experiencesContainer'>
+                            <div className='experience'>
+                                <img className='experienceImage' src={csharp}></img>
+                                C# .NET
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={python}></img>
+                                Python
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={mysql}></img>
+                                MySQL
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={blazor}></img>
+                                Blazor
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={azure}></img>
+                                Azure
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={raspberrypi}></img>
+                                Raspberry Pi
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={html}></img>
+                                HTML
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={css}></img>
+                                CSS
+                            </div>
+                        </div>
+                        
+                        <div className='projectText'>
+                            <h3>What does this project solve?</h3>
+                            <p>I wanted a way to monitor the temperature and air humidity in my room. With the gathered data, I can monitor how big of an effect the surrounding conditions have on the readings, 
+                            and ultimately find a way to avoid unpleasant temperatures and air humidity in my room.</p>
+                            <p></p>
+                            <h3>My role</h3>
+                            <p>This is a project that I have been working on in my free time by myself. This taught me how to <b>independently work on a project as a fullstack developer</b>.</p>
+                            <h3>What I learned</h3>
+                            <p>I learned how to work with Blazor, how to use a DHT22 sensor with my Raspberry Pi and how to display nice and interactive graphs in Blazor.
+                            I also learned how to use Azure to host and manage websites and databases. My learning experience from this project ultimately taught me a lot about <b>useful technologies that I could apply in my Bachelors project.</b></p>
+                            <a href={'https://kristofferhusdata.azurewebsites.net'} target='_blank'><h3>Live demo (username: guest, password: 123)</h3></a>
+                            <a href='https://github.com/Kristoffermg/kristofferhusdata' target='_blank'><i className='fa fa-github' id='github'></i></a>
+                        </div>
+                    </div>
+                </div>
             <hr />
             <div id='portfolio' className='projectListings'>
                 <div className='projectInformation'>
@@ -187,6 +203,14 @@ export default function Projects() {
                             <div className='experience'>
                                 <img className='experienceImage' src={typescript}></img>
                                 TypeScript
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={html}></img>
+                                HTML
+                            </div>
+                            <div className='experience'>
+                                <img className='experienceImage' src={css}></img>
+                                CSS
                             </div>
                             <div className='experience'>
                                 <img className='experienceImage' src={aws}></img>

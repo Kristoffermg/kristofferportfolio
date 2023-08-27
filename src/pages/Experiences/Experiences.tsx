@@ -22,7 +22,7 @@ export default function Experiences() {
         <div className='experiencesContainer'>
             <div className='experience'>
                 <img className='experienceImage' src={csharp}></img>
-                C#
+                C# .NET
             </div>
             <div className='experience'>
                 <img className='experienceImage' src={python}></img>
