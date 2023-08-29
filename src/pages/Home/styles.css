@@ -11,7 +11,6 @@
 }
 
 .sectionHeader {
-
     font-size:2em;
 }
 
@@ -19,6 +18,20 @@
     font-size: 1.2em;
 }
 
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 70vw !important;
+    }
+    .information {
+        width: 100% !important;
+    }
+    .references {
+        padding-left: 15% !important;
+    }
+    .reference {
+        padding-bottom: 2vw !important;
+    }
+}
 
 .header {
     height: 30vw;
@@ -75,4 +88,19 @@
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
+}
+
+.footerReferences {
+    margin-bottom: 1vw;
+}
+
+.footerReference {
+    text-decoration:  none;
+    color: black;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+#footerName {
+    font-size: x-large;
 }

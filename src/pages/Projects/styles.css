@@ -11,6 +11,14 @@
     padding-left: 2vw;
 }
 
+@media screen and (max-width: 1000px) {
+
+    .projectImage {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
 .projectText {
     width: 80%;
     margin: auto;
@@ -20,6 +28,7 @@
     height: 17vw;
     width: auto;
     box-shadow: 5px 5px 5px #ccc;
+    padding-right: 1vw;
 }
 
 i{

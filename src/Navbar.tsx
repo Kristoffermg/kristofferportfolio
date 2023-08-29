@@ -2,7 +2,7 @@ export default function NavBar() {
     const path = window.location.pathname;
     // const executeScroll = () => myRef.current.scrollIntoView()  
     return <nav id='nav' className="nav">
-        <a href={'#nav'} className='site-name'>Kristoffer Møller Gregersen</a>
+        <a href={'#nav'} className='site-name'>Kristoffer Gregersen</a>
         <ul>
             <li><a href={'#aboutme'}>About Me</a></li>
             <li><a href={'#projects'}>Projects</a></li>

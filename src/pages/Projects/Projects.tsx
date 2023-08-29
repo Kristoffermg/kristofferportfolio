@@ -29,7 +29,7 @@ export default function Projects() {
                 <h1 className='sectionHeader'>My projects</h1>
                 <div id='bachelorprojekt' className='projectListings'>
                 <div className='projectInformation'>
-                        <img className='projectImage' src={transformerbillede}></img>
+                        <img className='projectImage' id='transformer' src={transformerbillede}></img>
                         <h2>Bachelor project: Time-Series Forecasting for Predicting the Oil Temperature in Electrical Transformers</h2>
 
                         <h3>Technologies used</h3>
@@ -97,7 +97,7 @@ export default function Projects() {
                 <hr />
                 <div id='notetakingapp' className='projectListings'>
                     <div className='projectInformation'>
-                        <img className='projectImage' src={noteappbillede} />
+                        <img className='projectImage' id='noteapp' src={noteappbillede} />
                         <h2>Note taking application</h2>
 
                         <h3>Technologies used</h3>
@@ -132,7 +132,7 @@ export default function Projects() {
                 <hr />
                 <div id='kristofferhusdata' className='projectListings'>
                     <div className='projectInformation'>
-                        <img className='projectImage' src={husdatabillede}></img>
+                        <img className='projectImage' id='husdata' src={husdatabillede}></img>
                         <h2>Kristofferhusdata</h2>    
 
                         <h3>Technologies used</h3>
@@ -190,7 +190,7 @@ export default function Projects() {
             <hr />
             <div id='portfolio' className='projectListings'>
                 <div className='projectInformation'>
-                        <img className='projectImage' src={portfoliobillede} />
+                        <img className='projectImage' id='portfolio' src={portfoliobillede} />
                         <h2>Personal portfolio</h2>
                         
                         <h3>Technologies used</h3>

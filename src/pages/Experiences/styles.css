@@ -12,6 +12,13 @@
     gap: 2rem;
 }
 
+@media screen and (max-width: 1000px) {
+    .experienceImage {
+        height: 20vw !important;
+        margin: auto !important;
+    }
+}
+
 .experience {
     flex-direction: column !important;
     display: flex;
