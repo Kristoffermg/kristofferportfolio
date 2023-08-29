@@ -12,10 +12,16 @@
     gap: 2rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 414px) {
     .experienceImage {
         height: 20vw !important;
         margin: auto !important;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+    .experienceImage {
+        height: 12vw !important;
     }
 }
 
