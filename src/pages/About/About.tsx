@@ -1,15 +1,20 @@
-import './styles.css'
+import "./styles.css";
 
-const Zoom = require('react-reveal/Zoom');
+const Zoom = require("react-reveal/Zoom");
 
 export default function About() {
-    return <section id='aboutme' className='aboutme'>
-        <h1 className='sectionHeader'>About me</h1>
-        <div className='content'>
-            <p> My name is Kristoffer, and I am a dedicated Software Developer and MSc Software Engineering student at Aalborg University. 
-                With expertise in C#, Python, SQL and more, I deliver responsible solutions. Committed to innovation,
-                I continually embrace learning for effective problem-solving. I aim to leverage my skills for a positive influence on society.
-            </p>
-        </div>
+  return (
+    <section id="aboutme" className="aboutme">
+      <h1 className="sectionHeader">About me</h1>
+      <div className="content">
+        <p>
+          {" "}
+          I am an upcoming Masters Thesis Graduate in Software Engineering at
+          Aalborg University. I specialize in C#, Python, TypeScript and SQL,
+          with experience in many other technologies. My other hobbies are
+          fitness, great food and traveling 😄
+        </p>
+      </div>
     </section>
+  );
 }
