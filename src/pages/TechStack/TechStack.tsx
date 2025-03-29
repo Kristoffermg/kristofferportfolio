@@ -15,7 +15,7 @@ import pytorch from "../../images/skills/pytorch.png";
 import azure from "../../images/skills/azure.png";
 import git from "../../images/skills/git.png";
 
-export default function Experiences() {
+export default function TechStack() {
   return (
     <section id="experiences">
       <h1 className="sectionHeader">My Tech Stack</h1>

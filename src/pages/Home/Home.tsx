@@ -3,7 +3,7 @@ import "./styles.css";
 import ReferencesButtons from "../ReferencesButtons";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
-import Experiences from "../Experiences/Experiences";
+import TechStack from "../TechStack/TechStack";
 import Projects from "../Projects/Projects";
 import { useMediaQuery } from "react-responsive";
 
@@ -30,7 +30,7 @@ export default function Home() {
         <section className={"information"}>
           <Fade>
             <About />
-            <Experiences />
+            <TechStack />
             <Experience />
           </Fade>
           <Projects />
