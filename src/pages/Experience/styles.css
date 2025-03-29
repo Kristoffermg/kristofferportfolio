@@ -1,0 +1,62 @@
+.clearskyImageShowcase {
+  display: flex !important;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap; /* Ensures better wrapping on smaller screens */
+  justify-content: center;
+}
+
+/* Button styling */
+.dropdown-toggle {
+  background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(123, 44, 191, 0.4);
+  margin-bottom: 10px; /* Increased spacing for better touch accessibility */
+}
+
+/* Hover & active states */
+.dropdown-toggle:hover {
+  background: linear-gradient(135deg, #9d4edd, #c77dff);
+  box-shadow: 0 6px 14px rgba(123, 44, 191, 0.6);
+  transform: translateY(-2px);
+}
+
+.dropdown-toggle:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(123, 44, 191, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .clearskyImageShowcase {
+    max-width: 90%;
+  }
+
+  .dropdown-toggle {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .clearskyImageShowcase {
+    max-width: 95%;
+    flex-direction: column; /* Stacks content for smaller screens */
+    align-items: center;
+  }
+
+  .dropdown-toggle {
+    width: 100%; /* Makes the button full-width for better touch interaction */
+    padding: 12px;
+    font-size: 14px;
+  }
+}
