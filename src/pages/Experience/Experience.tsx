@@ -1,5 +1,6 @@
 import "./styles.css";
 import React, { useState } from "react";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 import {
   ReactCompareSlider,
@@ -11,6 +12,7 @@ import clearskySceneClassification from "../../images/ClearskySceneClassificatio
 
 export default function Experience() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   return (
     <section id="experience">
       <h1 className="sectionHeader">Job Experience</h1>
@@ -32,7 +34,12 @@ export default function Experience() {
         </button>
       </div>
       {isDropdownOpen && (
-        <div className="clearskyImageShowcase">
+        <motion.div
+          className="clearskyImageShowcase"
+          initial={{ opacity: 0, y: 20 }} // Initial state (hidden and slightly below)
+          animate={{ opacity: 1, y: 0 }} // Final state (fully visible and at its normal position)
+          transition={{ duration: 0.5 }} // Duration of the animation
+        >
           <ReactCompareSlider
             itemOne={
               <ReactCompareSliderImage src={clearskyReal} alt="Real image" />
@@ -44,7 +51,7 @@ export default function Experience() {
               />
             }
           />
-        </div>
+        </motion.div>
       )}
     </section>
   );

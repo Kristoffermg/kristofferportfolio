@@ -6,33 +6,40 @@ import Experience from "../Experience/Experience";
 import TechStack from "../TechStack/TechStack";
 import Projects from "../Projects/Projects";
 import { useMediaQuery } from "react-responsive";
-
-const Flip = require("react-reveal/Flip");
-const Fade = require("react-reveal/Fade");
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 export default function Home() {
   return (
     <Fragment>
       <div className={"responsiveness"}>
         <section className={"header"}>
-          <Flip bottom>
-            <div className={"container"}>
-              <div className="title">
-                <h1>Fullstack Software Developer</h1>
-                <h2 id="location">
-                  <i className="fa fa-map-marker" /> Aalborg
-                </h2>
-              </div>
-              <ReferencesButtons />
+          {/* Replace Flip with motion.div */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+            className={"container"}
+          >
+            <div className="title">
+              <h1>Fullstack Software Developer</h1>
+              <h2 id="location">
+                <i className="fa fa-map-marker" /> Aalborg
+              </h2>
             </div>
-          </Flip>
+            <ReferencesButtons />
+          </motion.div>
         </section>
         <section className={"information"}>
-          <Fade>
+          {/* Replace Fade with motion.div */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <About />
             <TechStack />
             <Experience />
-          </Fade>
+          </motion.div>
           <Projects />
         </section>
         <div id="footer">

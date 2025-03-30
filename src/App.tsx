@@ -1,7 +1,8 @@
-import './App.css';
-import Navbar from "./Navbar"
-import Home from "./pages/Home/Home"
-import { Route, Routes } from "react-router-dom"
+import "./App.css";
+import React from "react";
+import Navbar from "./Navbar";
+import Home from "./pages/Home/Home";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         </Routes>
       </div>
     </>
-  )
+  );
 }
 
 export default App;

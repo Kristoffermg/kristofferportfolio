@@ -1,4 +1,5 @@
 import "./styles.css";
+import React from "react";
 
 import c from "../../images/skills/C.png";
 import blazor from "../../images/skills/blazor.png";

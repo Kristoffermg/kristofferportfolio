@@ -1,4 +1,5 @@
 import "./styles.css";
+import React from "react";
 import husdatabillede from "../../images/husdata_billede.png";
 import transformerbillede from "../../images/transformer_screenshot.png";
 import portfoliobillede from "../../images/portfolio.png";
