@@ -53,6 +53,7 @@ export default function Experience() {
           />
         </motion.div>
       )}
+      <hr />
     </section>
   );
 }
