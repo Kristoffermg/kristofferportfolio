@@ -6,14 +6,13 @@ import Experience from "../Experience/Experience";
 import TechStack from "../TechStack/TechStack";
 import Projects from "../Projects/Projects";
 import { useMediaQuery } from "react-responsive";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <Fragment>
       <div className={"responsiveness"}>
         <section className={"header"}>
-          {/* Replace Flip with motion.div */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -30,7 +29,6 @@ export default function Home() {
           </motion.div>
         </section>
         <section className={"information"}>
-          {/* Replace Fade with motion.div */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -39,8 +37,8 @@ export default function Home() {
             <About />
             <TechStack />
             <Experience />
+            <Projects />
           </motion.div>
-          <Projects />
         </section>
         <div id="footer">
           <p id="footerName">Kristoffer Gregersen</p>
