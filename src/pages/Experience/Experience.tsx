@@ -7,8 +7,8 @@ import {
   ReactCompareSliderImage,
 } from "react-compare-slider";
 
-import clearskyReal from "../../images/ClearskyReal.png";
-import clearskySceneClassification from "../../images/ClearskySceneClassification.png";
+import clearskyReal from "../../images/ClearskyReal.jpg";
+import clearskySceneClassification from "../../images/ClearskySceneClassification.jpg";
 
 export default function Experience() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
