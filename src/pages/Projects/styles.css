@@ -1,99 +1,138 @@
 .projects {
     display: flex;
     flex-direction: column;
+    padding-top: 2.5rem;
 }
 
-.pictureAndTechnologies {
-    flex-direction: column;
+.projTabs {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0 0;
+    flex-wrap: wrap;
 }
 
-.projectInformation {
-    padding-left: 2vw;
+.projTab {
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 100px;
+    background: white;
+    color: #4a5568;
+    font-size: 0.88rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-@media screen and (max-width: 1000px) {
+.projTab:hover {
+    border-color: #cbd5e0;
+    color: #1a202c;
+}
 
-    .projectImage {
-        width: 100% !important;
-        height: auto !important;
-    }
+.projTabActive {
+    background: #1a202c;
+    color: white;
+    border-color: #1a202c;
+}
+
+.projTabActive:hover {
+    color: white;
+}
+
+.projContent {
+    margin-top: 1.5rem;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 2rem;
+}
+
+.projContent h2 {
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: #1a202c;
+    margin: 0.75rem 0 0.5rem;
+    line-height: 1.45;
+}
+
+.projTechRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 1rem 0 0.5rem;
 }
 
 .projectText {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+}
+
+.projectText p {
+    color: #4a5568;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.projectText h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #718096;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.projectText h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #7b2cbf;
+    margin: 0.5rem 0;
+}
+
+.projectText a {
+    color: #7b2cbf;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.projectText a:hover {
+    color: #9d4edd;
 }
 
 .projectImage {
-    height: 17vw;
-    width: auto;
-    box-shadow: 5px 5px 5px #ccc;
-    padding-right: 1vw;
+    height: auto;
+    width: 100%;
+    max-height: 260px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
-i{
+@media screen and (max-width: 768px) {
+    .projContent {
+        padding: 1.5rem;
+    }
+    .projectImage {
+        max-height: 200px;
+    }
+}
+
+i {
     font-size: 1rem;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     line-height: 2rem;
 }
 
 #github {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    color: #4a5568;
+    transition: color 0.2s ease;
 }
 
+#github:hover {
+    color: #7b2cbf;
+}
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #ccc;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    width: 100%;
-}
-
-ol {
-    counter-reset: li; 
-    list-style: none; 
-    padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
-}
-
-ol li {
-    position: relative;
-    display: block;
-    padding: .4em .4em .4em 2em;
-    margin: .5em auto;
-    width: 50%;
-    background: linear-gradient(to bottom, rgba(64, 76, 143, 0.52), rgba(26, 5, 20, 0.73)), url('../../images/forside_baggrund.png');
-    color: #fff;
-    text-decoration: none;
-    border-radius: .3em;
-    transition: .3s ease-out;
-}
-
-ol :hover:before {
-     transform: rotate(360deg);
-}
-
-ol :before {
-    content: counter(li);
-    counter-increment: li;
-    position: absolute;
-    left: -1em;
-    top: 50%;
-    margin-top: -1.3em;
-    background: #f06464;
-    height: 2em;
-    width: 2em;
-    line-height: 2em;
-    border: .3em solid #fff;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 2em;
-    transition: all .3s ease-out;
-}
-
-#portfolio {
-    margin-bottom: 5%;
+    display: none;
 }

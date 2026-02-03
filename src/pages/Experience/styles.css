@@ -1,84 +1,136 @@
+#experience {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.expTabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  flex-wrap: wrap;
+}
+
+.expTab {
+  padding: 0.5rem 1.2rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 100px;
+  background: white;
+  color: #4a5568;
+  font-size: 0.88rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.expTab:hover {
+  border-color: #cbd5e0;
+  color: #1a202c;
+}
+
+.expTabActive {
+  background: #1a202c;
+  color: white;
+  border-color: #1a202c;
+}
+
+.expTabActive:hover {
+  color: white;
+}
+
+.expContent {
+  margin-top: 1.25rem;
+}
+
+.expContent p {
+  color: #4a5568;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.expRole {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.expTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.expPeriod {
+  font-size: 0.85rem;
+  color: #718096;
+  font-weight: 400;
+}
+
+.demo-container {
+  margin: 0.75rem 0 0.5rem;
+}
+
+.dropdown-toggle {
+  background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 10px rgba(123, 44, 191, 0.2);
+}
+
+.dropdown-toggle:hover {
+  background: linear-gradient(135deg, #9d4edd, #c77dff);
+  box-shadow: 0 4px 16px rgba(123, 44, 191, 0.3);
+  transform: translateY(-1px);
+}
+
+.dropdown-toggle:active {
+  transform: translateY(0);
+}
+
 .clearskyImageShowcase {
-  display: flex !important;
-  margin: 0 auto;
-  max-width: 1000px;
+  display: flex;
+  margin: 1rem auto 0;
+  max-width: 100%;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/* Button styling */
-.dropdown-toggle {
-  background: linear-gradient(135deg, #7b2cbf, #9d4edd);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 10px rgba(123, 44, 191, 0.4);
-  margin-bottom: 10px;
-}
-
-.dropdown-toggle:hover {
-  background: linear-gradient(135deg, #9d4edd, #c77dff);
-  box-shadow: 0 6px 14px rgba(123, 44, 191, 0.6);
-  transform: translateY(-2px);
-}
-
-.dropdown-toggle:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 5px rgba(123, 44, 191, 0.4);
-}
-
-@media (max-width: 1024px) {
-  .clearskyImageShowcase {
-    max-width: 90%;
-  }
-
-  .dropdown-toggle {
-    font-size: 15px;
-    padding: 10px 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .clearskyImageShowcase {
-    max-width: 95%;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .dropdown-toggle {
-    width: 100%;
-    padding: 12px;
-    font-size: 14px;
-  }
-}
 .image-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
   margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
 }
 
 .color-legend-overlay {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
   color: white;
-  padding: 10px;
-  border-radius: 6px;
-  font-size: 14px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 12px;
 }
 
 .color-legend-overlay h4 {
-  margin: 0 0 5px 0;
-  font-size: 16px;
+  margin: 0 0 6px 0;
+  font-size: 13px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -91,32 +143,30 @@
 .color-legend-overlay li {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .legend-box {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   display: inline-block;
   margin-right: 8px;
   border-radius: 3px;
 }
 
-.buildingsAndRoads {
-  background-color: rgb(176, 16, 61);
-}
-.trees {
-  background-color: rgb(0, 102, 0);
-}
-.grassland {
-  background-color: rgb(113, 158, 8);
-}
-.agriculture {
-  background-color: rgb(246, 255, 0);
-}
-.water {
-  background-color: rgb(0, 55, 207);
-}
-.non-vegetated {
-  background-color: rgb(141, 137, 131);
+.buildingsAndRoads { background-color: rgb(176, 16, 61); }
+.trees { background-color: rgb(0, 102, 0); }
+.grassland { background-color: rgb(113, 158, 8); }
+.agriculture { background-color: rgb(246, 255, 0); }
+.water { background-color: rgb(0, 55, 207); }
+.non-vegetated { background-color: rgb(141, 137, 131); }
+
+@media (max-width: 768px) {
+  .dropdown-toggle {
+    width: 100%;
+  }
+  .expRole {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
 }

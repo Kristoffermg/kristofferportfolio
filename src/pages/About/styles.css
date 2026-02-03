@@ -1,5 +1,15 @@
-.content {
-    width: 80%;
-    margin: auto;
+.aboutme {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #edf2f7;
 }
 
+.aboutme .content {
+    width: 100%;
+}
+
+.aboutme .content p {
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    margin-top: 0.5rem;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
@@ -8,9 +8,9 @@ export default function About() {
       <h1 className="sectionHeader">About Me</h1>
       <motion.div
         className="content"
-        initial={{ scale: 0.8 }} // Start with a smaller scale
-        animate={{ scale: 1 }} // Zoom in to normal scale
-        transition={{ duration: 1 }} // Control duration of the zoom effect
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
       >
         <p>
           I am an upcoming Masters Thesis Graduate in Software Engineering at
