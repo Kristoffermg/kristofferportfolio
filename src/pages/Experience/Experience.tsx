@@ -59,13 +59,20 @@ export default function Experience() {
               <span className="expTitle">Fullstack Software Developer</span>
               <span className="expPeriod">Aug 2025 - Present</span>
             </div>
-            <p>
-              As a Fullstack Software Developer at RINA Digital Solutions, I work
-              on developing and maintaining full-scale web applications.
-              I contribute across the entire stack, from designing and building
-              responsive front-end interfaces to implementing back-end services
-              and APIs.
-            </p>
+            <ul className="expBullets">
+              <li>
+                Architecting a new Core API in Python to replace legacy
+                infrastructure, projected to save $30,000 monthly in Azure costs.
+              </li>
+              <li>
+                Maintaining a real-time IoT pipeline using Python, Docker, and
+                Elasticsearch to process vessel sensor data.
+              </li>
+              <li>
+                Building real-time Angular features (dashboards and lists) and
+                collaborating with PMs on customer requirements.
+              </li>
+            </ul>
           </motion.div>
         )}
 

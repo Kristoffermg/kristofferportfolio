@@ -60,6 +60,7 @@
     flex-wrap: wrap;
     gap: 0.65rem;
     margin: 1rem 0 0.5rem;
+    justify-content: center;
 }
 
 .projectText {

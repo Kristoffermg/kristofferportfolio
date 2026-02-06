@@ -13,3 +13,57 @@
     line-height: 1.85;
     margin-top: 0.5rem;
 }
+
+.education {
+    margin-top: 2rem;
+}
+
+.educationTitle {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0 0 1rem;
+}
+
+.educationItem {
+    padding: 1rem 0;
+    border-top: 1px solid #edf2f7;
+}
+
+.educationItem:last-child {
+    padding-bottom: 0;
+}
+
+.educationHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.educationDegree {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.educationPeriod {
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+.educationSchool {
+    font-size: 0.95rem;
+    color: #718096;
+    display: block;
+    margin-top: 0.15rem;
+}
+
+.educationThesis {
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin: 0.4rem 0 0;
+    font-style: italic;
+    line-height: 1.6;
+}

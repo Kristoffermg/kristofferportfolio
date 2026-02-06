@@ -18,8 +18,8 @@ body {
     right: 0;
     z-index: 100;
     background-color: rgba(10, 8, 30, 0.4);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,7 @@ body {
     height: 64px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     transition: background-color 0.3s ease;
+    will-change: transform;
 }
 
 .site-name {

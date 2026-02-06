@@ -69,15 +69,6 @@ export default function Home() {
             <i className="fa fa-envelope"></i>
             <span>Email</span>
           </a>
-          <a
-            href="https://drive.google.com/file/d/16eg__GNYpUoLwxHqMjn3n_mdEQ8HQp-e/view?usp=sharing"
-            className="footerReference"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-newspaper-o"></i>
-            <span>CV</span>
-          </a>
         </div>
       </footer>
     </>

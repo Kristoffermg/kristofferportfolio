@@ -10,7 +10,6 @@
     url("../../images/forside_baggrund.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: relative;
   display: flex;
   align-items: center;

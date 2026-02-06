@@ -23,43 +23,16 @@ export default function TechStack() {
 
       <div className="experiencesContainer">
         <div className="experience">
-          <img className="experienceImage" src={csharp}></img>
-          C# .NET
-        </div>
-        <div className="experience">
           <img className="experienceImage" src={python}></img>
           Python
         </div>
         <div className="experience">
-          <img className="experienceImage" src={c}></img>C
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={java}></img>
-          Java
+          <img className="experienceImage" src={csharp}></img>
+          C# .NET
         </div>
         <div className="experience">
           <img className="experienceImage" src={typescript}></img>
           TypeScript
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={javascript}></img>
-          JavaScript
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={html}></img>
-          HTML
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={css}></img>
-          CSS
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={mysql}></img>
-          MySQL
-        </div>
-        <div className="experience">
-          <img className="experienceImage" src={blazor}></img>
-          Blazor
         </div>
         <div className="experience">
           <img className="experienceImage" src={react}></img>
@@ -70,12 +43,12 @@ export default function TechStack() {
           PyTorch
         </div>
         <div className="experience">
-          <img className="experienceImage" src={azure}></img>
-          Azure
+          <img className="experienceImage" src={mysql}></img>
+          SQL
         </div>
         <div className="experience">
-          <img className="experienceImage" src={git}></img>
-          Git
+          <img className="experienceImage" src={azure}></img>
+          Azure
         </div>
       </div>
       <hr></hr>
